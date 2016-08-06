@@ -10,4 +10,4 @@ deployment:
   production:
     branch: master
     commands:
-      - aws s3 sync . s3://www.plucker.io/
+      - aws s3 sync . s3://www.plucker.io/ --exclude .git --exclude circle.yml
