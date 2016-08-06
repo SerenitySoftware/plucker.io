@@ -5,5 +5,5 @@ dependencies:
 deployment:
   production:
     branch: master
-      commands:
-        - aws s3 sync . s3://www.plucker.io/
+    commands:
+      - aws s3 sync . s3://www.plucker.io/
